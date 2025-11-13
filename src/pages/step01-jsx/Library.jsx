@@ -1,0 +1,13 @@
+import Book from "./Book";
+
+export default function Library(params) {
+    return(
+        <>
+            {/* 컴포넌트 합성 , Book 컴포넌트에 파라미터 전달 - 속성으로 전달 */}
+            <Book name="혼자서 하는 스프링" numOfPage="300" />
+            <Book name="혼자서 하는 머신러닝" numOfPage="700" />
+            <Book name="혼자서 하는 리엑트" numOfPage="250" />
+
+        </>
+    )
+}
