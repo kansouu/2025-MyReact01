@@ -18,9 +18,9 @@ export default function SomeEveryCommnetList(params) {
     {
         name : "희동이",
         comment : "응~애",
-        isAdmin : false,
+        isAdmin : false
 
-    },
+    }
 ];
     // some() : or 와 같음 = 만족하는 조건이 하나라도 있으면 true
     // every() : and 와 같음 = 모두 만족해여 true
@@ -28,6 +28,14 @@ export default function SomeEveryCommnetList(params) {
     const result2 = comments.every(k=>k.isAdmin)
 
     let msg ="";
+
+    if(result2){
+       msg = "전부 관리자"
+    }else if(result1){
+        msg = "일부만 관리자"
+    }else {
+        msg = "없음"
+    }
 
     return(
         // <>
@@ -37,9 +45,9 @@ export default function SomeEveryCommnetList(params) {
         // </>
 
          <>
-            <h2>관리자 상태 </h2>
-            <p>관리자 댓글 있냐 ? {result1 ? "있음" : "없음"}</p>
-            <p>모두 관리자 댓글 있냐 ? {result2 ? "모두 관리자 댓글" : "모두 관리자 댓글 아님"}</p>
+            <h2>관리자 상태 : {msg} </h2>
+            <h2>관리자 상태 : {result2 ? "전부 관리자": result1 ? "일부만 관리자" : "없음"} </h2>
+            
         </>
-    )
+    )   
 }

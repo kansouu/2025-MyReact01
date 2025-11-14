@@ -8,6 +8,10 @@ import NumberCount from './pages/step04-state/NumberCount';
 import FilterCommentList from './pages/step05-map,filter/FilterCommentList';
 import FindCommentList from './pages/step05-map,filter/FindCommentList';
 import SomeEveryCommentList from './pages/step05-map,filter/SomeEveryCommentList';
+import IfExam01 from './pages/step06-if/IfExam01';
+import IfExam02List from './pages/step06-if/IfExam02List';
+import TextList from './pages/step06-if/TextList';
+import Event01 from './pages/step07-event/Event01';
 //import Comment from './pages/step03-component/Comment';
 
 function App() {
@@ -31,6 +35,14 @@ function App() {
       <FindCommentList />
       <hr />
       <SomeEveryCommentList />
+       <hr />
+      <IfExam01 />
+      <hr />
+      <IfExam02List />
+      <hr />
+      <TextList />
+      <hr />
+      <Event01 />
     </div>
   );
 }
