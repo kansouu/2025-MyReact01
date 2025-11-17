@@ -1,4 +1,4 @@
-function AlterButton({message, children}}) {
+function AlterButton({message, children}) {
     return(
         <button onClick={()=>(message)}>{children}</button>
     )
