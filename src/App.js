@@ -12,6 +12,24 @@ import IfExam01 from './pages/step06-if/IfExam01';
 import IfExam02List from './pages/step06-if/IfExam02List';
 import TextList from './pages/step06-if/TextList';
 import Event01 from './pages/step07-event/Event01';
+import Event02 from './pages/step07-event/Event02';
+import Event03 from './pages/step07-event/Event03';
+import Event04 from './pages/step07-event/Event04';
+import InputExam from './pages/step08-css/InputExam';
+import CounterEx01 from './pages/step09-event2/CounterEx01';
+import CounterEx02 from './pages/step09-event2/CounterEx02';
+import CounterEx03 from './pages/step09-event2/CounterEx03';
+import CounterEx04 from './pages/step09-event2/CounterEx04';
+import CounterEx05 from './pages/step09-event2/CounterEx05';
+import CounterEx06 from './pages/step09-event2/CounterEx06';
+import CounterEx07 from './pages/step09-event2/CounterEx07';
+import CounterEx08 from './pages/step09-event2/CounterEx08';
+import ProfileSample from './pages/step10-props/ProfileSample';
+import ProfileSample2 from './pages/step10-props/ProfileSample2';
+import ProfileSample3 from './pages/step10-props/ProfileSample3';
+import FormSample01 from './pages/step11-form/FormSample01';
+import FormSample02 from './pages/step11-form/FormSample02';
+import EffectTest01 from './pages/step12-useEffect/EffectTest01';
 //import Comment from './pages/step03-component/Comment';
 
 function App() {
@@ -43,6 +61,42 @@ function App() {
       <TextList />
       <hr />
       <Event01 />
+       <hr />
+      <Event02 />
+      <hr />
+      <Event03 />
+      <hr />
+      <Event04 />
+      <hr />
+      <InputExam />
+      <hr />
+      <CounterEx01 />
+      <hr />
+      <CounterEx02 />
+      <hr />
+      <CounterEx03 />
+      <hr />
+      <CounterEx04 />
+      <hr />
+      <CounterEx05 />
+      <hr />
+      <CounterEx06 />
+      <hr />
+      <CounterEx07 />
+      <hr />
+      <CounterEx08 />
+      <hr />
+      <ProfileSample />
+      <hr />
+      <ProfileSample2 />
+      <hr />
+      <ProfileSample3 />
+      <hr />
+      <FormSample01 />
+      <hr />
+      <FormSample02 />
+      <hr />
+      <EffectTest01 />
     </div>
   );
 }
